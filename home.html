@@ -3,9 +3,9 @@
 ;
 ;    Metrix++, Copyright 2009-2019, Metrix++ Project
 ;    Link: https://github.com/metrixplusplus/metrixplusplus
-;    
+;
 ;    This file is a part of Metrix++ Tool.
-;    
+;
 -->
 <html lang="en">
   <head>
@@ -23,7 +23,7 @@
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="assets/css/docs.css" rel="stylesheet">
     <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-    
+
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.js"></script>
@@ -148,7 +148,7 @@
         </div>
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
         <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-      </div>      
+      </div>
       <div class="container">
         <div class="row">
           <div class="span3">
@@ -168,7 +168,7 @@
     </header>
 
     <div class="container"><div class="row">
-      
+
       <!-- Docs nav
 	  ================================================== -->
       <div class="span3 bs-docs-sidebar">
@@ -183,7 +183,7 @@
           <li><a href="#contribute_section"><i class="icon-chevron-right"></i> Feedback &amp; Contribute</a></li>
         </ul>
       </div>
-      
+
       <!-- Sections
 	  ================================================== -->
       <div class="span9">
@@ -211,7 +211,7 @@
              The identified regions form a tree of nested source code blocks, which are subsequently refered to and scanned by metrics plugins.
              Thus the tool attributes metrics to regions, which provides fine grained data to analysis tools.
              The following example demonstrates the regions concept.</p>
-             
+
           <table class="table">
             <thead>
               <tr>
@@ -235,11 +235,11 @@ public:
     // I explain the following function
     MyClass(): m_var(0) {
         char str[] = "unused string"
-        
+
         // nested region for good measure
         struct MyStruct {};
     }
-    
+
     // Do not judge ugly code below
 #define get_max(a,b) ((a)>(b)?(a):(b))
     set_max(int b) {
@@ -334,7 +334,7 @@ file: __global__: comment
                 <td>Number of non-blank lines of preprocessor code per region.</td>
               </tr>
               <tr class="info">
-                <td>std.code.fileslines.comments</td>
+                <td>std.code.filelines.comments</td>
                 <td>Number of non-blank lines of comments per file.</td>
                 <td rowspan="2"><ul><li>Low number of comments may indicate maintainability problems.</li></ul></td>
               </tr>
@@ -350,7 +350,7 @@ file: __global__: comment
               </tr>
               <tr>
                 <td>std.code.complexity.maxindent</td>
-                <td>Maximum level of indentation of blocks within a region. For example, the following class has got 
+                <td>Maximum level of indentation of blocks within a region. For example, the following class has got
                 	the metric equal to 1 and the function has got it equal to 2:
                 	<pre class="prettyprint">
 class WeekClass {
@@ -389,7 +389,7 @@ class WeekClass {
               </tr>
               <tr>
                 <td>std.suppress</td>
-                <td>An option enables collection of Metrix++ suppressions and 2 metrics: 'std.suppress:count' and 
+                <td>An option enables collection of Metrix++ suppressions and 2 metrics: 'std.suppress:count' and
                     'std.suppress.file:count'. The first is number of suppressions per region.
                     The second is the same but applies for file-scope metrics.</td>
                 <td><ul><li>Suppressing false-positives.</li>
@@ -434,7 +434,7 @@ class WeekClass {
 
           <h4>License</h4>
           <p><a href="https://github.com/metrixplusplus/metrixplusplus/blob/master/LICENSE" target="blank">MIT license</a></p>
-             
+
         </section>
 
         <section id="workflow_section">
@@ -482,7 +482,7 @@ class WeekClass {
           	<li><a href="https://github.com/metrixplusplus/metrixplusplus/issues/new">Submit new feature request or bug report</a></li>
           	<li><a href="https://github.com/metrixplusplus/metrixplusplus/issues/new">Ask a question</a></li>
           	<li>Submit git pull request</li>
-          	<li>Create and publish your plugin. 
+          	<li>Create and publish your plugin.
           		<a href="https://github.com/metrixplusplus/metrixplusplus/issues/new" target="blank">Request to refer</a>
           			 to it from Metrix++ project space.</li>
           	<li><a href="https://github.com/metrixplusplus/metrixplusplus/issues/new" target="blank">Submit your plugin</a>
@@ -559,7 +559,7 @@ class WeekClass {
     <script src="assets/js/application.js"></script>
 
     <script>
-    
+
     </script>
 
 
